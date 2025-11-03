@@ -2,6 +2,6 @@
 
 All notable changes to `@enhance/sandbox` will be documented here.
 
-## 0.0.0
+## 0.1.0
 
-- Initial private preview release.
+- Initial public publish with obfuscated runtime, service worker, overlay bundles, and CLI.
