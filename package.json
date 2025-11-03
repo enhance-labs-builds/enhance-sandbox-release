@@ -1,0 +1,45 @@
+{
+  "name": "@enhance/sandbox",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Enhance preview bootstrap and tooling package.",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./manifest.json": "./dist/manifest.json"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "bin": {
+    "enhance-sandbox": "bin/enhance-sandbox.js"
+  },
+  "scripts": {
+    "build": "node ./scripts/build-package.mjs",
+    "release": "node ./scripts/release-package.mjs",
+    "clean": "rimraf dist",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@enhance-sandbox/runtime": "workspace:*",
+    "@enhance-sandbox/sw": "workspace:*",
+    "@enhance-sandbox/overlay": "workspace:*",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": "0.0.0",
+  "serviceWorker": "./assets/sw-enhance.26b03a30610b.js",
+  "overlay": "./assets/overlay.91394cac3e7a.js",
+  "overlayBootstrap": "./assets/overlay-bootstrap.46a051d7f180.js",
+  "overlayBootstrapIntegrity": "sha384-wog65xCdx5XRz2BPqmDzs3zwIlfUcfWEd+PbbVQwdP0uUtA027M5t5V5pL3yTz/E"
+}
