@@ -1,12 +1,12 @@
-# @enhance/sandbox
+# @enhance-eng/sandbox
 
-`@enhance/sandbox` delivers the Enhance permissive preview runtime, service worker, and overlay. Install it in a production app to opt-in to sandboxed front-end previews without touching your routing or deploy process.
+`@enhance-eng/sandbox` delivers the Enhance permissive preview runtime, service worker, and overlay. Install it in a production app to opt-in to sandboxed front-end previews without touching your routing or deploy process.
 
 ## Install
 
 ```bash
-npm install @enhance/sandbox
-# or pnpm add @enhance/sandbox
+npm install @enhance-eng/sandbox
+# or pnpm add @enhance-eng/sandbox
 ```
 
 After installing, copy the runtime assets into your web root:
@@ -22,7 +22,7 @@ The command writes a service worker (`sw-enhance.<hash>.js`) and overlay bundles
 Load the runtime at the top of your client entry point:
 
 ```ts
-import { Enhance } from '@enhance/sandbox';
+import { Enhance } from '@enhance-eng/sandbox';
 
 Enhance.init({
   sandboxBaseURL: 'https://sandbox.example.com/project/branch',

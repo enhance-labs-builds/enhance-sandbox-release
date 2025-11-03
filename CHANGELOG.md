@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `@enhance/sandbox` will be documented here.
+All notable changes to `@enhance-eng/sandbox` will be documented here.
 
 ## 0.1.0
 
