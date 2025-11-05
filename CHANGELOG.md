@@ -2,6 +2,12 @@
 
 All notable changes to `@enhance-eng/sandbox` will be documented here.
 
+## 0.3.0
+
+- Added opt-in `enhance.config.json` support plus a package `postinstall` hook that automatically copies `sw-enhance.js` and `assets/overlay.js` into the configured public directory.
+- Made `enhance-sandbox prepare-sw` idempotent and shared the copy logic so installs skip rewriting unchanged assets.
+- Bundled a sample config file and refreshed docs to guide teams through the zero-touch install flow.
+
 ## 0.2.0
 
 - Revamped inspect mode with magnetic morphing hover box, buttery-smooth transitions, and keyboard navigation support.

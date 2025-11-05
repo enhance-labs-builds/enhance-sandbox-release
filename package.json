@@ -1,6 +1,6 @@
 {
   "name": "@enhance-eng/sandbox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Enhance preview bootstrap and tooling package.",
   "license": "MIT",
   "type": "module",

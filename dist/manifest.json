@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "serviceWorker": "./sw-enhance.js",
   "overlay": "./assets/overlay.js",
-  "overlayDigest": "+05o1nkL+JRIVkwZyKl9NiPP5JB0DK0pGwvAO+k12aI=",
-  "serviceWorkerDigest": "TdA7ouVW6R45f0y4ZRJaokvayWvdf3fVL3b/bubiIMA="
+  "overlayDigest": "jjULolyi0rYSaMDpMCCg5CVWgiBCmiVu4LITR4thbhQ=",
+  "serviceWorkerDigest": "o1aYKYpWpFw21P7Gx0EtqopXCR6NH81u/Z6I/+Xy5UY="
 }
