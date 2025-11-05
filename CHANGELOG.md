@@ -2,6 +2,11 @@
 
 All notable changes to `@enhance-eng/sandbox` will be documented here.
 
+## 0.3.1
+
+- Removed the legacy service worker "ready" reload fallback to prevent infinite refresh loops when preview mode assets are missing.
+- Clarified overlay/service worker activation flow to surface blocking controllers without forcing repeated page reloads.
+
 ## 0.3.0
 
 - Added opt-in `enhance.config.json` support plus a package `postinstall` hook that automatically copies `sw-enhance.js` and `assets/overlay.js` into the configured public directory.
