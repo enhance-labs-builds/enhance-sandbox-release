@@ -9,13 +9,24 @@ npm install @enhance-eng/sandbox
 # or pnpm add @enhance-eng/sandbox
 ```
 
-After installing, copy the runtime assets into your web root:
+To keep the bundled assets current automatically, add an `enhance.config.json` at your project root and reinstall:
+
+```json
+{
+  "publicDir": "./public",
+  "swFilename": "sw-enhance.js"
+}
+```
+
+The postinstall hook reads this file and copies the service worker (`sw-enhance.js`) plus overlay bundle (`assets/overlay.js`) into the configured directory. Rerunning `npm install` or bumping `@enhance-eng/sandbox` keeps both files up to date without any extra steps.
+
+Prefer to run the sync manually? You can still call the CLI directly:
 
 ```bash
 npx enhance-sandbox prepare-sw --public-dir ./public --filename sw-enhance.js
 ```
 
-The command writes a service worker (`sw-enhance.<hash>.js`) and overlay bundles (`overlay-bootstrap.<hash>.js`, `overlay.<hash>.js`) into `./public/assets`.
+Both paths write the service worker and overlay bundle into your public directory.
 
 ## Initialise
 
@@ -39,7 +50,7 @@ When the page loads with `?enhance=1`, the runtime registers the service worker,
 The package exposes an `enhance-sandbox` binary:
 
 - `prepare-sw` – copy bundled assets into a public directory.
-- `asset-manifest` – print the hashed filenames for templating or deploy verification.
+- `manifest` – print the packaged asset metadata for templating or deploy verification.
 
 Run `npx enhance-sandbox --help` to view all commands and options.
 

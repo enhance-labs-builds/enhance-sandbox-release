@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
-  "serviceWorker": "./assets/sw-enhance.13e926e196ee.js",
-  "overlay": "./assets/overlay.816d478d8101.js",
-  "overlayBootstrap": "./assets/overlay-bootstrap.b4f6bc7e22bc.js",
-  "overlayBootstrapIntegrity": "sha384-C1JQsiSwSLHqCsQ4jhOPGf+0A6C66Y0mPBKLUxYQKVXSyXMLlnWVj7AItjQga6Jz"
+  "version": "0.2.0",
+  "serviceWorker": "./sw-enhance.js",
+  "overlay": "./assets/overlay.js",
+  "overlayDigest": "+05o1nkL+JRIVkwZyKl9NiPP5JB0DK0pGwvAO+k12aI=",
+  "serviceWorkerDigest": "TdA7ouVW6R45f0y4ZRJaokvayWvdf3fVL3b/bubiIMA="
 }
