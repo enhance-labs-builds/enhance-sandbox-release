@@ -1,7 +1,9 @@
 {
   "version": "0.3.1",
   "serviceWorker": "./sw-enhance.js",
+  "runtime": "./assets/enhance-runtime.js",
   "overlay": "./assets/overlay.js",
-  "overlayDigest": "pvaIEEYpacZcsLrFOXKUXj6V09yvjr99lSpWUzviIJc=",
-  "serviceWorkerDigest": "dO/gD0poK0VePCjV7v/pp1lOpR22Z5Zap+PStlpYJoM="
+  "runtimeDigest": "7l4vemWMwcOgP4+Rkye6XSsAExDvZGzQSYh0JEhg3i0=",
+  "overlayDigest": "nZZSykWCnO2TlX1b/lnWVCrClGNZlqjooGotcofz1NQ=",
+  "serviceWorkerDigest": "vW0wxq2EojJSqvNWJ9yayRQ5jKdVyS+qlK9oAZx8iNI="
 }
