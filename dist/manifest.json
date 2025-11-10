@@ -3,7 +3,7 @@
   "serviceWorker": "./sw-enhance.js",
   "runtime": "./assets/enhance-runtime.js",
   "overlay": "./assets/overlay.js",
-  "runtimeDigest": "7l4vemWMwcOgP4+Rkye6XSsAExDvZGzQSYh0JEhg3i0=",
-  "overlayDigest": "nZZSykWCnO2TlX1b/lnWVCrClGNZlqjooGotcofz1NQ=",
-  "serviceWorkerDigest": "vW0wxq2EojJSqvNWJ9yayRQ5jKdVyS+qlK9oAZx8iNI="
+  "runtimeDigest": "vMN1ZiVXoUEsFf54P1+Kt/nEI+KYnIURykBFwKCNM48=",
+  "overlayDigest": "9EPTBw/WGAsxi+klMOWkR8PoIVk+UveuPkS4hAOZoXM=",
+  "serviceWorkerDigest": "wkyg2dSVfZ7as9hSVrUkqsxMHo0SLb1qncIoL4qpdZI="
 }
