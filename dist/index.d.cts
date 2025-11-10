@@ -4,25 +4,20 @@ export { EnhanceController, EnhanceOptions, EnhanceStatus } from '@enhance-sandb
 
 interface EnhanceAssetManifest {
     serviceWorker: string;
-    overlay: string;
     runtime: string;
     version: string;
     serviceWorkerDigest: string | null;
-    overlayDigest: string | null;
     runtimeDigest: string | null;
 }
 declare const Enhance: {
     init(options: Parameters<typeof Enhance$1.init>[0]): _enhance_sandbox_runtime.EnhanceController;
     serviceWorkerURL(): string;
-    overlayURL(): string;
     runtimeURL(): string;
     assetManifest(): EnhanceAssetManifest;
 };
 declare function getAssetManifest(): EnhanceAssetManifest;
 declare function resolveServiceWorkerPath(): string;
-declare function resolveOverlayPath(): string;
 declare function serviceWorkerURL(): string;
-declare function overlayURL(): string;
 declare function runtimeURL(): string;
 
-export { Enhance, type EnhanceAssetManifest, getAssetManifest, overlayURL, resolveOverlayPath, resolveServiceWorkerPath, runtimeURL, serviceWorkerURL };
+export { Enhance, type EnhanceAssetManifest, getAssetManifest, resolveServiceWorkerPath, runtimeURL, serviceWorkerURL };
