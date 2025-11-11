@@ -2,6 +2,6 @@
   "version": "0.3.1",
   "serviceWorker": "./sw-enhance.js",
   "runtime": "./assets/enhance-runtime.js",
-  "runtimeDigest": "pa2GVR8/0Nn5w9q/2OLrWmFeAn+hCH/Uj40J+mlaYFA=",
-  "serviceWorkerDigest": "dz3VnvRJ6Q4NFvn/6z8pqxQJtvetsPgRL3I/bDq5nEY="
+  "runtimeDigest": "90rGx4dzv5N29ok+y6mTHAEqVsvXGI1mOuMHWv04SXE=",
+  "serviceWorkerDigest": "4uIVEATB8mZlPIP3B8VLE6d078aPD8ZUHFHmMoyasw4="
 }
