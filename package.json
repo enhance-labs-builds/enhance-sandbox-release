@@ -1,6 +1,6 @@
 {
   "name": "@enhance-eng/sandbox",
-  "version": "0.3.8",
+  "version": "0.3.10",
   "description": "Enhance preview bootstrap and tooling package.",
   "license": "MIT",
   "type": "module",
@@ -28,8 +28,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "postinstall": "node ./dist/postinstall.js"
   }
 }
