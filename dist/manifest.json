@@ -1,7 +1,0 @@
-{
-  "version": "0.3.1",
-  "serviceWorker": "./sw-enhance.js",
-  "runtime": "./assets/enhance-runtime.js",
-  "runtimeDigest": "8QntaQXNMfB7p/JvC8eiOasZr8akfxP6sPGNwEuzsf4=",
-  "serviceWorkerDigest": "k26DqVvUUnKS6Eul7/DDd3QPTBBkScHLWYLbpd0u8W0="
-}
