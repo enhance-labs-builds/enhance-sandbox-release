@@ -1,0 +1,35 @@
+{
+  "name": "@enhance-eng/sandbox",
+  "version": "0.3.19",
+  "description": "Enhance preview bootstrap and tooling package.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./vite": {
+      "types": "./dist/vite/index.d.ts",
+      "import": "./dist/vite/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin",
+    "enhance.config.sample.json"
+  ],
+  "bin": {
+    "enhance-sandbox": "./dist/cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "zod": "^3.22.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
